@@ -1,6 +1,6 @@
 {
   "appLoadingMessage": "Benvenuto a Lines of Battle!",
-  "home": "Casa",
+  "home": "Home",
   "language": "Lingua",
   "tutorial": "Tutorial",
   "play": "Gioca",
@@ -18,20 +18,20 @@
   "eloScore": "Il tuo Elo è {{elo}}",
   "eloDescription": "Elo è un sistema di punteggio usato per calcolare il livello di abilità relativo dei giocatori. Più alto è il tuo Elo, più forte sei rispetto agli altri. Vincere aumenta il tuo Elo, perdere lo diminuisce.",
   "welcomeName": "Benvenuto {{name}}!",
-  "myGames": "I miei giochi",
+  "myGames": "Le mie partite",
   "gameStatus": {
-    "available": "Disponibile per giocare",
+    "available": "Disponibile",
     "notStarted": "Gioco non ancora iniziato"
   },
-  "loadingGames": "Caricamento giochi...",
-  "noGamesYet": "Nessun gioco ancora! Clicca su Gioca per crearne uno nuovo.",
-  "failedToLoadGames": "Impossibile caricare i giochi. Riprova.",
-  "armyCompositions": "Composizioni dell'esercito",
+  "loadingGames": "Caricamento partita...",
+  "noGamesYet": "Ancora nessuna partita! Clicca su Gioca per crearne una nuova.",
+  "failedToLoadGames": "Impossibile caricare le tue partite. Riprova.",
+  "armyCompositions": "Composizione dell'esercito",
   "account": "Account",
   "scenarioEditor": "Editor di scenari",
   "wiki": "Wiki",
   "gameCard": {
-    "title": "Gioco {{id}}",
+    "title": "Partita {{id}}",
     "turn": "Turno {{turnNumber}}/{{maxTurn}}"
   },
 
@@ -40,17 +40,17 @@
   "loading": "Caricamento...",
   "yes": "Sì",
   "no": "No",
-  "by": "Di",
+  "by": "di",
   "logout": "Esci",
 
-  "createNewGame": "Crea nuovo gioco",
-  "randomGameInfo": "Per i giochi generati casualmente, il gioco utilizzerà l'esercito che hai creato per la modalità di battaglia selezionata. Puoi visualizzare e gestire i tuoi eserciti in <0>Composizioni dell'esercito</0>. Se non hai ancora creato eserciti per quella modalità, verrà utilizzato un esercito predefinito.",
+  "createNewGame": "Nuovo gioco",
+  "randomGameInfo": "Per le partite generate casualmente, verrà utilizzato l'esercito che hai creato per la modalità di battaglia selezionata. Puoi visualizzare e gestire i tuoi eserciti in <0>Composizioni dell'esercito</0>. Se non hai ancora creato eserciti per quella modalità, verrà utilizzato un esercito predefinito.",
   "selectGameMode": "Seleziona la modalità di gioco dalle opzioni qui sotto.",
   "or": "O",
   "cancel": "Annulla",
 
   "matchmakingQueue": {
-    "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
+    "inQueue": "Sei nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le tue stesse impostazioni.",
     "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
     "continueMatchmaking": "Anche se lasci questa pagina, il processo di matchmaking continuerà e sarai avvisato quando verrà trovata una partita.",
     "nextQueueCheck": "Prossimo controllo della coda tra {{countdown}} secondi.",
@@ -85,8 +85,8 @@
   "matchmakingDescription": "La modalità matchmaking ti permette di unirti rapidamente a un gioco con giocatori casuali usando impostazioni predefinite.",
   "custom": "Personalizzato",
   "customDescription": "La modalità personalizzata ti permette di configurare un gioco con impostazioni specifiche e invitare amici a giocare.",
-  "createCustomGame": "Crea gioco personalizzato",
-  "maxTurn": "Turno massimo",
+  "createCustomGame": "Crea partita personalizzata",
+  "maxTurn": "Turni massimi",
 
   "copied": "Copiato!",
   "copyLink": "Copia link",
@@ -220,8 +220,8 @@
 
   "unitDescription": {
     "1": "Il modesto battaglione di fanteria di linea è l'unità base dell'esercito. Il moschetto è la sua arma principale, ma può anche respingere la cavalleria o caricare altra fanteria e artiglieria con la baionetta.",
-    "2": "Cavalleria media affidabile e ben equilibrata, adatta sia per molestare che per combattimenti prolungati.",
-    "3": "Artiglieria media economica con mobilità e potenza di fuoco modeste, insieme a un impressionante fuoco a mitraglia.",
+    "2": "Cavalleria media affidabile e ben equilibrata, adatta sia per azioni di disturbo che per combattimenti prolungati.",
+    "3": "Artiglieria media economica con mobilità e potenza di fuoco modeste, capace di un impressionante fuoco a mitraglia a corto raggio.",
     "4": "Soldati esperti e fisicamente imponenti con la capacità di ispirare i soldati amici e terrorizzare i nemici. Queste unità d'élite sono riservate ai soldati più naturalmente dotati, il che le rende molto più costose da schierare. La loro intimidazione e le eccellenti caratteristiche di combattimento corpo a corpo sono meglio sfruttate in una carica con baionetta.",
     "7": "Fanteria di linea d'élite addestrata con un'enfasi speciale sulla rapidità di movimento e sulla precisione di tiro.",
     "11": "Cavalleria leggera adatta ad attaccare nemici deboli, danneggiati e in rotta. Tuttavia, avrà difficoltà contro fanteria organizzata e cavalleria pesante. Usa fanteria e artiglieria per indebolire prima il nemico.",
@@ -234,10 +234,10 @@
     "13": "«Gli arcieri a cavallo bashkir sono senza dubbio le truppe meno pericolose al mondo.» - Barone Marbot, ignorando una freccia nella sua coscia"
   },
 
-  "damageResistances": "Resistenze al danno",
+  "damageResistances": "Resistenza al danno",
   "otherStats": "Altre statistiche",
   "damageModifier": "Modificatore del danno",
-  "orgDamageRatio": "Rapporto danno organizzazione",
+  "orgDamageRatio": "Rapporto organizzazione/danno",
 
   "damage": "Danno",
   "orgDamage": "Danno all'organizzazione",
@@ -293,7 +293,7 @@
 
   "networkErrorModal": {
     "title": "Ops! Connessione persa",
-    "message": "Sembra che la connessione sia fallita. Non preoccuparti! Puoi comunque divertirti giocando offline."
+    "message": "Sembra che il tentativo di connessione sia fallito. Non preoccuparti! Puoi comunque divertirti giocando offline."
   },
 
   "needsUpdateModal": {
@@ -303,7 +303,7 @@
 
   "update": "Aggiorna!",
   "yourArmyCompositionsFor": "La tua composizione dell'esercito per",
-  "noUnitsYet": "Nessuna unità ancora",
+  "noUnitsYet": "Ancora nessuna unità",
   "armyComposition": "Composizione dell'esercito",
   "budgetAvailable": "Budget disponibile",
   "saveArmy": "Salva esercito",
@@ -313,7 +313,7 @@
 
   "landing": {
     "title": "Benvenuto in Lines of Battle",
-    "message": "<b>Lines of Battle</b> è un gioco di strategia a turni simultanei multigiocatore ambientato durante le guerre napoleoniche. Progettato per profondità tattica e immersione storica, ti impegnerai in epiche battaglie contro altri, usando abilità e strategia per superare e sconfiggere i tuoi avversari!",
+    "message": "<b>Lines of Battle</b> è un gioco di strategia a turni simultanei multigiocatore ambientato durante le guerre napoleoniche. Progettato per profondità tattica e immersione storica, ti impegnerai in epiche battaglie multiplayer, usando abilità e strategia per superare e sconfiggere i tuoi avversari!",
     "privacy": "Iniziando, accetti la nostra <0>Informativa sulla privacy</0>."
   },
 
@@ -328,18 +328,18 @@
 
   "loadingScreen": {
     "fonts": "Caricamento font...",
-    "joiningGame": "Unione al gioco...",
+    "joiningGame": "Connessione alla partita...",
     "resources": "Caricamento risorse...",
     "fetchingGameData": "Recupero dati di gioco...",
     "generatingMap": "Generazione mappa...",
 
-    "tip1": "Le unità con alta organizzazione subiscono poco o nessun danno bonus da una carica. Ammorbidisci i bersagli con il fuoco prima.",
+    "tip1": "Le unità con alta organizzazione subiscono poco o nessun danno bonus da una carica. Indeboliscile prima con il fuoco.",
     "tip2": "Gli ussari sono cavalleria leggera che dovrebbero evitare combattimenti pesanti e predare unità danneggiate e artiglieria.",
     "tip3": "Moschetti e artiglieria infliggono molto più danno a medio raggio che a lungo raggio.",
     "tip4": "Gli obici sparano con un arco alto, il che li rende molto più efficaci di altra artiglieria nell'attaccare bersagli in foreste ed edifici.",
     "tip5": "Puoi trovare molte informazioni utili sulle tue truppe selezionando un'unità, cliccando su Info (tasto rapido I) ed esaminando le schede dell'unità.",
     "tip6": "Le unità in rotta hanno penalità alla riorganizzazione e rischiano di essere completamente cacciate dalla mappa. Ritira le unità disorganizzate in sicurezza prima che vadano in rotta, quando possibile.",
-    "tip7": "L'artiglieria a cavallo e gli obici sono molto più mobili dell'artiglieria da 12 libbre. Avanzare con la tua fanteria è rischioso, ma può cambiare le sorti delle battaglie con il loro potente fuoco a mitraglia a corto raggio.",
+    "tip7": "L'artiglieria a cavallo e gli obici sono molto più mobili dell'artiglieria da 12 libbre. Avanzare con la tua artiglieria è rischioso, ma può cambiare le sorti delle battaglie con il loro potente fuoco a mitraglia a corto raggio.",
     "tip8": "Quando selezioni un'unità, vedrai il suo raggio di organizzazione in azzurro chiaro. I nemici in questo raggio perderanno organizzazione, mentre gli alleati guadagneranno organizzazione.",
     "tip9": "I lancieri sono cavalleria d'élite che si concentrano sulla loro carica devastante, ma sono inferiori ai corazzieri in un combattimento prolungato.",
     "tip10": "Gli attacchi a distanza che colpiscono un'unità di fanteria sul fianco infliggeranno molto più danno.",
@@ -361,7 +361,7 @@
     "1": "Muovi",
     "2": "Cerca",
     "3": "Spara",
-    "4": "Fuoco e Avanza",
+    "4": "Spara e Avanza",
     "6": "Ripiega",
     "7": "Schermaglia"
   },
@@ -466,11 +466,11 @@
   "hybridDescription": "Le mappe ibride utilizzano terreni preimpostati non casuali, ma permettono ai giocatori di usare i propri eserciti personalizzati per giocare.",
 
   "playLastActionsModal": {
-    "message": "Nuovi eventi di battaglia si sono verificati mentre eri via.\nVuoi vedere le azioni dell'ultimo turno?",
+    "message": "Si sono verificati nuovi eventi mentre eri via.\nVuoi vedere le azioni dell'ultimo turno?",
     "button": "Riproduci"
   },
 
-  "battleReport": "Rapporto di battaglia",
+  "battleReport": "Resoconto della battaglia",
   "strength": "Forza",
   "guns": "Cannoni",
   "casualties": "Vittime",
